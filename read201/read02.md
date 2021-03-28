@@ -1,4 +1,4 @@
-<!-- # HTML
+# HTML
 
 - Structural markup: the elements that you can use to describe both headings and paragraphs
 - Semantic markup: which provides extra information; such as where emphasis is placed in 
@@ -38,11 +38,11 @@ The <blockquote> element is used for longer quotes that take up an entire paragr
 how the <p> element is still used inside the <blockquote> element.
 Browsers tend to indent the contents of the <blockquote> element, however you should not
 use this element just to indent a piece of text — rather you should achieve this effect using CSS.
-- The <q>
+- The <q>.
  element is used for shorter quotes that sit within a paragraph. Browsers are
 supposed to put quotes around the <q> element, however Internet Explorer does not —
 therefore many people avoid using the <q> element.
-- the <abbr>
+- the <abbr>: 
 If you use an abbreviation or an acronym, then the <abbr> element can be used. A title
 attribute on the opening tag is used to specify the full term.
 - <cite>
@@ -71,7 +71,8 @@ usually has a line through it.
 The <s> element indicates something that is no longer accurate or relevant (but that
 should not be deleted).
 Visually the content of an <s> element will usually be displayed with a line through the center.
-=========================================================================================
+
+
 Introducing CSS :
 CSS treats each HTML element as if it appears inside its own box and uses rules to indicate how that
 element should look
@@ -96,7 +97,9 @@ element (not just a direct child of that element)
 h1+p {} = Matches an element that is the next sibling of another
 h1~p {} = Matches an element that is a sibling of another, although it
 does not have to be the directly preceding element
-=======================================================================================
+
+
+
 java script: Comments used in JavaScript to explain what the code does, and can be written in two ways:
 
 /* Multi-Line Comments */
@@ -121,4 +124,4 @@ The capital letter differs from the lowercase letter.
 Variable name should describe the kind of information that the variable stores
 "Camel Case" is a recommended way to write variables containing more than one word
 
- -->
+
